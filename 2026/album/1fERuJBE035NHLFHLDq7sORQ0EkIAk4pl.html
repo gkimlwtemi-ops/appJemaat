@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{background-color:$bodybg$;}
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
+
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#000;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
+<h3 class="mytitle">Ibadah dan Pelayanan Diakonia</h3>
+<p class="mysubtitle">Dokumentasi Pelayanan Urusan Diakonia</p>
+<div class="gallery-container" id="gallery-container">
+
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Aei28x5XgokxTF_8ML7WMO5AfioQFR00/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Aei28x5XgokxTF_8ML7WMO5AfioQFR00"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1HDfhBdlHJq2WCFryCPsqFqb_B9zgwAq2/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1HDfhBdlHJq2WCFryCPsqFqb_B9zgwAq2"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10tbCbj03oZEpsO3LZNLJYmoVuQC1nn8i/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10tbCbj03oZEpsO3LZNLJYmoVuQC1nn8i"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1vdaC_6iBMUFSC3sNvH9DM9_dnUL24VjA/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1vdaC_6iBMUFSC3sNvH9DM9_dnUL24VjA"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1O51oNwbgJeqyYOTjPUk7RP5_xb4d-lfy/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1O51oNwbgJeqyYOTjPUk7RP5_xb4d-lfy"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1U7BsKAdSNIWhxBiIeqJaEReUmDSdtw52/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1U7BsKAdSNIWhxBiIeqJaEReUmDSdtw52"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/11y8sPXQedmoOePw-W_lLdaVlpW_3o70y/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=11y8sPXQedmoOePw-W_lLdaVlpW_3o70y"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/14TJNYdAGRUrxoFZ_KAChOWeTgRrQm7G3/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=14TJNYdAGRUrxoFZ_KAChOWeTgRrQm7G3"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10f0oOAOpfGryvrJg23CPGryh4cPxo7I9/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10f0oOAOpfGryvrJg23CPGryh4cPxo7I9"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/19T9lzRFztnktV67J99n1IzV3Vsvc7zA_/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=19T9lzRFztnktV67J99n1IzV3Vsvc7zA_"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1LOLKjKKkU2FKnZIENgoJFCw70GFPxKnC/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1LOLKjKKkU2FKnZIENgoJFCw70GFPxKnC"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1hnNMep8txkUFJ0EV_cvIdEf6YbjJAFvA/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1hnNMep8txkUFJ0EV_cvIdEf6YbjJAFvA"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>

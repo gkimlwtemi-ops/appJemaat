@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{background-color:$bodybg$;}
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
+
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#000;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
+<h3 class="mytitle">NATAL PW 2021</h3>
+<p class="mysubtitle">Dokumentasi Ibadah Natal PW 2021</p>
+<div class="gallery-container" id="gallery-container">
+
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1FXFW24PZ3m50amGib11QB6no6nw4BiR-/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1FXFW24PZ3m50amGib11QB6no6nw4BiR-"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1eTLQfpPVMlfA-XyYJRtOwVk2zUR2TMq4/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1eTLQfpPVMlfA-XyYJRtOwVk2zUR2TMq4"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/19rF8euzUKzmQpdPYFXvfMakWvpyj5vJb/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=19rF8euzUKzmQpdPYFXvfMakWvpyj5vJb"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1vX9XL5JJOskvMlQuKFsfEd1Mq-ldDt46/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1vX9XL5JJOskvMlQuKFsfEd1Mq-ldDt46"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1IYjd0aarCIntEi-leN6faRcGIPWBFrpK/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1IYjd0aarCIntEi-leN6faRcGIPWBFrpK"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/19DINnE8atVfvxzvPKngfZ8HdOjGYyMwD/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=19DINnE8atVfvxzvPKngfZ8HdOjGYyMwD"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1TvZpG1CVjpIGUFs0LDvRx3LJazNxSmud/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1TvZpG1CVjpIGUFs0LDvRx3LJazNxSmud"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Hczlsj3PAeTQg9VKaNUJwpncxSSyfijQ/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Hczlsj3PAeTQg9VKaNUJwpncxSSyfijQ"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/161Yn6DiJiuo3fZGkJFwYIN10XzRCVODz/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=161Yn6DiJiuo3fZGkJFwYIN10XzRCVODz"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1qnsc8z0A74r0beldWyqc_2y6kXuslPb4/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1qnsc8z0A74r0beldWyqc_2y6kXuslPb4"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{background-color:$bodybg$;}
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
+
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#000;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
+<h3 class="mytitle">PANITIA PENJARINGAN MAJELIS dan BP UNSUR</h3>
+<p class="mysubtitle">Dokumentasi Pelantikan Panitia Penjaringan Majelis dan BP Pelayan Unsur 2023-2027</p>
+<div class="gallery-container" id="gallery-container">
+
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Vapq7hAp9hboE6ogzEmXhyfpx9i8XjEO/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Vapq7hAp9hboE6ogzEmXhyfpx9i8XjEO"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1wR9Fbfp6Acp-NZfEBeFdDHXWmPuqla7G/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1wR9Fbfp6Acp-NZfEBeFdDHXWmPuqla7G"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/13Mj3C1ERXP7qqdSGf8Snv0lQLJ6LBaYo/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=13Mj3C1ERXP7qqdSGf8Snv0lQLJ6LBaYo"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1hKdDMagKRLI7mD8WW6Un_X1ihFERPEVU/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1hKdDMagKRLI7mD8WW6Un_X1ihFERPEVU"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Sx_gP_pSi01tpLUfQdAj8sOkW4hvebWN/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Sx_gP_pSi01tpLUfQdAj8sOkW4hvebWN"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1eJW3ZvlWm6vCLzppoamErigC7W_OqsZx/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1eJW3ZvlWm6vCLzppoamErigC7W_OqsZx"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>

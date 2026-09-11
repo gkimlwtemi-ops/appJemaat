@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{background-color:$bodybg$;}
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
+
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#000;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
+<h3 class="mytitle">PELATIHAN MERANGKAI BUNGA</h3>
+<p class="mysubtitle">Dokumentasi Kegiatan PW MLW</p>
+<div class="gallery-container" id="gallery-container">
+
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1tZmhIm3Rm-MLQhZeoSkwn_Um2tMYkBJM/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1tZmhIm3Rm-MLQhZeoSkwn_Um2tMYkBJM"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1cdbAOxSNNoNGY43nHxrC_Yg7URuCoVsA/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1cdbAOxSNNoNGY43nHxrC_Yg7URuCoVsA"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1LWsEYqQNDIwnE8QtEsL15og5nKteQxxY/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1LWsEYqQNDIwnE8QtEsL15og5nKteQxxY"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1vH8fWhZyXrm_ezb3LFwoXg_e8tunPDKt/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1vH8fWhZyXrm_ezb3LFwoXg_e8tunPDKt"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1B1B9eC2ay7xMn9qYFqELsKjXmZDy7bcj/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1B1B9eC2ay7xMn9qYFqELsKjXmZDy7bcj"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>

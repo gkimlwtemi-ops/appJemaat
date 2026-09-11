@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{background-color:$bodybg$;}
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
+
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#000;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
+<h3 class="mytitle">PRAKTEK RENUNGAN</h3>
+<p class="mysubtitle">Dokumentasi Katekum 2022</p>
+<div class="gallery-container" id="gallery-container">
+
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1q635QAr3KfrFT_q3gRi-PdVDXt7fxao_/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1q635QAr3KfrFT_q3gRi-PdVDXt7fxao_"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1XlcgQkhmgbC1JRgJvxelrvToq4I3Av2d/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1XlcgQkhmgbC1JRgJvxelrvToq4I3Av2d"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1ytqSLPjVCmkse8HqhC6nYZTvNZsbBEyO/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1ytqSLPjVCmkse8HqhC6nYZTvNZsbBEyO"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/17WGcXNZgo3Z5odWUbXQ8mkbyNUu6awIj/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=17WGcXNZgo3Z5odWUbXQ8mkbyNUu6awIj"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10rMNHOeQFR6Ela0HPaa5LF0kS6NqggXa/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10rMNHOeQFR6Ela0HPaa5LF0kS6NqggXa"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1MWUoK3bfMWasiuAm66b8ywS9ClE_1gj_/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1MWUoK3bfMWasiuAm66b8ywS9ClE_1gj_"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1CY1HESmDyF8H4vXJr-twlQMod6rAfko7/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1CY1HESmDyF8H4vXJr-twlQMod6rAfko7"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1iB56mXqK1aQX8-iP7Fb--Xh4eZ_C7187/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1iB56mXqK1aQX8-iP7Fb--Xh4eZ_C7187"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1rYfbzxl1GwFhrVhFMtBQB40wzrynAHqk/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1rYfbzxl1GwFhrVhFMtBQB40wzrynAHqk"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1H6ENsfaLyOe0yJbTsq3lryyJb6GLRnLd/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1H6ENsfaLyOe0yJbTsq3lryyJb6GLRnLd"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10zRPbVTwK3yyWYv6ghgu-HCg8BJeteqQ/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10zRPbVTwK3yyWYv6ghgu-HCg8BJeteqQ"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/15CH6Y-qjjFjpWeHLB-Nggk5CxqoUtzqd/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=15CH6Y-qjjFjpWeHLB-Nggk5CxqoUtzqd"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/159ZjAjuHXMlng55TRZ4aS7h9vpRXd98h/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=159ZjAjuHXMlng55TRZ4aS7h9vpRXd98h"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1pKR9fIcnDI1s5fRBqh3-gXVqkYOuAdch/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1pKR9fIcnDI1s5fRBqh3-gXVqkYOuAdch"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Ge5OWjkp0ZE7Y4-wZi-OWnJlwrVf-mBY/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Ge5OWjkp0ZE7Y4-wZi-OWnJlwrVf-mBY"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1OoXm0p6MWrXC7j5nP97FTibnvnBGilpb/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1OoXm0p6MWrXC7j5nP97FTibnvnBGilpb"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/12qD6wDXqFmXyXYeSCaJUSMQIW3iol4D6/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=12qD6wDXqFmXyXYeSCaJUSMQIW3iol4D6"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1BieQHt6nWYGW5AXiUHCHMV2RKXihvLxY/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1BieQHt6nWYGW5AXiUHCHMV2RKXihvLxY"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>
