@@ -1,200 +1,167 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head>  
-<meta charset="UTF-8">     
-<meta name="viewport" content="width=device-width, initial-scale=1.0">    
-</head> 
-<body> 
-<link href='https://roytipa.github.io/project/GalleryPhoto/gallery.css' rel='stylesheet'/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
 
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#fff;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	.gallery-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
 <h3 class="mytitle">NATAL PAR 2022</h3>
-<p class="mysubtitle" style="text-align:center;">Dokumentasi Ibadah Natal PAR Tahun 2022</p><!--more-->
+<p class="mysubtitle">Dokumentasi Ibadah Natal PAR Tahun 2022</p>
+<div class="gallery-container" id="gallery-container">
 
-
-<div class="dataphoto" id="2204220002001">IMG-20211214-WA0020.jpg|-|https://www.googleapis.com/drive/v3/files/1FCEGxTVcsCX9ZU3GCxh9pZnEHkIUsrHN?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002002">IMG-20211214-WA0019.jpg|-|https://www.googleapis.com/drive/v3/files/1Zw-QHNc9BQj0OiwxMs5Jig2qX0WNefN_?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002003">IMG-20211214-WA0018.jpg|-|https://www.googleapis.com/drive/v3/files/1AAvOgBA6uPzmGFF4N8Ts4emw6D-NLHtQ?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002004">IMG-20211214-WA0017.jpg|-|https://www.googleapis.com/drive/v3/files/1bzmQlbfiR5bJPzYBeqRlGTfyj3UEndOQ?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002005">IMG-20211214-WA0016.jpg|-|https://www.googleapis.com/drive/v3/files/1ULAe1eigScLk2TQVyekOTln38P_HyJky?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002006">IMG-20211213-WA0044.jpg|-|https://www.googleapis.com/drive/v3/files/1Rgs9E6KtyR-mxrFpsBfH0GxlxXxXiFCf?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002007">IMG-20211213-WA0043.jpg|-|https://www.googleapis.com/drive/v3/files/15kSe3_BLXLwU1m2OX_pCvoUBQPS8z46L?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002008">IMG-20211213-WA0042.jpg|-|https://www.googleapis.com/drive/v3/files/1hU-7i2tvFrAnuQfQMTjtLkVoBtUHP_73?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002009">IMG-20211213-WA0041.jpg|-|https://www.googleapis.com/drive/v3/files/1nO0GWv4WdEpRN3rsadyinzYKjxlaowV2?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002010">IMG-20211213-WA0040.jpg|-|https://www.googleapis.com/drive/v3/files/1iy9swODbs6IudrN23X70zTE2SJA2knhB?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002011">IMG-20211213-WA0039.jpg|-|https://www.googleapis.com/drive/v3/files/14tKcIQVYJLQ32ye10kETlaeOR27V00Bi?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002012">IMG-20211213-WA0038.jpg|-|https://www.googleapis.com/drive/v3/files/1-Uk7xbwzvUONU4RQuOrOOOd9Jfi2QfOO?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002013">IMG-20211213-WA0037.jpg|-|https://www.googleapis.com/drive/v3/files/1zDhpTnzzWcrAAFGQTGxr38mUZDpOJXLC?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002014">IMG-20211213-WA0032.jpg|-|https://www.googleapis.com/drive/v3/files/16HthSkdjVq0VIzPRaRJ1XTd5_bnzvVhH?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002015">IMG-20211213-WA0031.jpg|-|https://www.googleapis.com/drive/v3/files/15pIpWYGdQ_ePoPi8kxqjFuEt4VekgOUc?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002016">IMG-20211213-WA0030.jpg|-|https://www.googleapis.com/drive/v3/files/1Aa5nhrWiDXsNTilphUeKbU6ILBXDp_wB?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002017">IMG-20211213-WA0029.jpg|-|https://www.googleapis.com/drive/v3/files/1pmbAVa2_0l7kH8YKJ60TNeRZimmkS0K2?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002018">IMG-20211213-WA0028.jpg|-|https://www.googleapis.com/drive/v3/files/161CYGIFZIWSkA2gEF4-Q7pbyZrreGb6B?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002019">IMG-20211213-WA0027.jpg|-|https://www.googleapis.com/drive/v3/files/1C2iVpiDXy5JW7KaA7XQjdRULcFP82KH-?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002020">IMG-20211213-WA0026.jpg|-|https://www.googleapis.com/drive/v3/files/1bo9DMccK2b0WEn8yvpN1vTinyzpwajZA?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002021">IMG-20211213-WA0025.jpg|-|https://www.googleapis.com/drive/v3/files/1V5RgkaTCm5hok3jjSENX0AWpc7KUC9NF?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002022">IMG-20211213-WA0024.jpg|-|https://www.googleapis.com/drive/v3/files/1cNFsN47LH0P62etRro_bb3GbmAGv2Dhr?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002023">IMG-20211213-WA0023.jpg|-|https://www.googleapis.com/drive/v3/files/152tTngl84ZnsPwkicwZJCh-t-hYDvv4w?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-<div class="dataphoto" id="2204220002024">IMG-20211213-WA0022.jpg|-|https://www.googleapis.com/drive/v3/files/1xpZgs3rLtcvsKaFzty9s2XviLrZBvZpj?alt=media$key=AIzaSyCYQLmaJJ49d3EF-G_aPv45fuOb95qlTn4|#</div>
-    <div class="columns" id="columns">
- 
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002001')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1FCEGxTVcsCX9ZU3GCxh9pZnEHkIUsrHN"/>
-             </a>
-<!--             <div class="Ket">IMG-20211214-WA0020.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002002')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1Zw-QHNc9BQj0OiwxMs5Jig2qX0WNefN_"/>
-             </a>
-<!--             <div class="Ket">IMG-20211214-WA0019.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002003')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1AAvOgBA6uPzmGFF4N8Ts4emw6D-NLHtQ"/>
-             </a>
-<!--             <div class="Ket">IMG-20211214-WA0018.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002004')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1bzmQlbfiR5bJPzYBeqRlGTfyj3UEndOQ"/>
-             </a>
-<!--             <div class="Ket">IMG-20211214-WA0017.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002005')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1ULAe1eigScLk2TQVyekOTln38P_HyJky"/>
-             </a>
-<!--             <div class="Ket">IMG-20211214-WA0016.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002006')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1Rgs9E6KtyR-mxrFpsBfH0GxlxXxXiFCf"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0044.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002007')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=15kSe3_BLXLwU1m2OX_pCvoUBQPS8z46L"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0043.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002008')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1hU-7i2tvFrAnuQfQMTjtLkVoBtUHP_73"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0042.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002009')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1nO0GWv4WdEpRN3rsadyinzYKjxlaowV2"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0041.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002010')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1iy9swODbs6IudrN23X70zTE2SJA2knhB"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0040.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002011')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=14tKcIQVYJLQ32ye10kETlaeOR27V00Bi"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0039.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002012')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1-Uk7xbwzvUONU4RQuOrOOOd9Jfi2QfOO"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0038.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002013')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1zDhpTnzzWcrAAFGQTGxr38mUZDpOJXLC"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0037.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002014')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=16HthSkdjVq0VIzPRaRJ1XTd5_bnzvVhH"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0032.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002015')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=15pIpWYGdQ_ePoPi8kxqjFuEt4VekgOUc"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0031.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002016')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1Aa5nhrWiDXsNTilphUeKbU6ILBXDp_wB"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0030.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002017')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1pmbAVa2_0l7kH8YKJ60TNeRZimmkS0K2"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0029.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002018')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=161CYGIFZIWSkA2gEF4-Q7pbyZrreGb6B"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0028.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002019')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1C2iVpiDXy5JW7KaA7XQjdRULcFP82KH-"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0027.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002020')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1bo9DMccK2b0WEn8yvpN1vTinyzpwajZA"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0026.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002021')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1V5RgkaTCm5hok3jjSENX0AWpc7KUC9NF"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0025.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002022')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1cNFsN47LH0P62etRro_bb3GbmAGv2Dhr"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0024.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002023')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=152tTngl84ZnsPwkicwZJCh-t-hYDvv4w"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0023.jpg</div> -->
-        </div>
-        <div class="image fit">
-            <a href="javascript:ekos('2204220002024')" >
-                <img alt=""src="https://drive.google.com/thumbnail?id=1xpZgs3rLtcvsKaFzty9s2XviLrZBvZpj"/>
-             </a>
-<!--             <div class="Ket">IMG-20211213-WA0022.jpg</div> -->
-        </div>
-    </div>
-
-<div id="myModal" class="modal" style="z-order:1;">
-  <span onclick="javascript:tutup()" class="close2"><svg viewBox="0 0 24 24">
-    <path d="M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12L20 6.91Z" />
-</svg></span>
-  <span onclick="javascript:silgallery()" class="opengal" id="opengal" title="Open Profil"><i class='fa fa-download'></i></span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1FCEGxTVcsCX9ZU3GCxh9pZnEHkIUsrHN/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1FCEGxTVcsCX9ZU3GCxh9pZnEHkIUsrHN"/></a>
 </div>
- 
-<script type='text/javascript'>
-var addrgallery="#";function ekos(e){var l=document.getElementById(e).innerHTML.split("|"),n=l[0],t=l[3],d=l[1];addrgallery=t.replace("$","&");var a=l[2].replace("$","&"),o=document.getElementById("myModal"),e=document.getElementById("img01"),t=document.getElementById("caption"),l=document.getElementById("opengal");l.style.display="#"!=addrgallery?"":"none","-"==a&&(a=picdefault),o.style.display="block",e.src=a,t.innerHTML=n+"<br>"+d}function tutup(){document.getElementById("myModal").style.display="none"}function silgallery(){window.open(addrgallery,"_blank").focus()}
-</script>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Zw-QHNc9BQj0OiwxMs5Jig2qX0WNefN_/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Zw-QHNc9BQj0OiwxMs5Jig2qX0WNefN_"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1AAvOgBA6uPzmGFF4N8Ts4emw6D-NLHtQ/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1AAvOgBA6uPzmGFF4N8Ts4emw6D-NLHtQ"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1bzmQlbfiR5bJPzYBeqRlGTfyj3UEndOQ/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1bzmQlbfiR5bJPzYBeqRlGTfyj3UEndOQ"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1ULAe1eigScLk2TQVyekOTln38P_HyJky/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1ULAe1eigScLk2TQVyekOTln38P_HyJky"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Rgs9E6KtyR-mxrFpsBfH0GxlxXxXiFCf/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Rgs9E6KtyR-mxrFpsBfH0GxlxXxXiFCf"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/15kSe3_BLXLwU1m2OX_pCvoUBQPS8z46L/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=15kSe3_BLXLwU1m2OX_pCvoUBQPS8z46L"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1hU-7i2tvFrAnuQfQMTjtLkVoBtUHP_73/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1hU-7i2tvFrAnuQfQMTjtLkVoBtUHP_73"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1nO0GWv4WdEpRN3rsadyinzYKjxlaowV2/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1nO0GWv4WdEpRN3rsadyinzYKjxlaowV2"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1iy9swODbs6IudrN23X70zTE2SJA2knhB/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1iy9swODbs6IudrN23X70zTE2SJA2knhB"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/14tKcIQVYJLQ32ye10kETlaeOR27V00Bi/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=14tKcIQVYJLQ32ye10kETlaeOR27V00Bi"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1-Uk7xbwzvUONU4RQuOrOOOd9Jfi2QfOO/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1-Uk7xbwzvUONU4RQuOrOOOd9Jfi2QfOO"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1zDhpTnzzWcrAAFGQTGxr38mUZDpOJXLC/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1zDhpTnzzWcrAAFGQTGxr38mUZDpOJXLC"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/16HthSkdjVq0VIzPRaRJ1XTd5_bnzvVhH/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=16HthSkdjVq0VIzPRaRJ1XTd5_bnzvVhH"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/15pIpWYGdQ_ePoPi8kxqjFuEt4VekgOUc/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=15pIpWYGdQ_ePoPi8kxqjFuEt4VekgOUc"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Aa5nhrWiDXsNTilphUeKbU6ILBXDp_wB/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Aa5nhrWiDXsNTilphUeKbU6ILBXDp_wB"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1pmbAVa2_0l7kH8YKJ60TNeRZimmkS0K2/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1pmbAVa2_0l7kH8YKJ60TNeRZimmkS0K2"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/161CYGIFZIWSkA2gEF4-Q7pbyZrreGb6B/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=161CYGIFZIWSkA2gEF4-Q7pbyZrreGb6B"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1C2iVpiDXy5JW7KaA7XQjdRULcFP82KH-/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1C2iVpiDXy5JW7KaA7XQjdRULcFP82KH-"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1bo9DMccK2b0WEn8yvpN1vTinyzpwajZA/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1bo9DMccK2b0WEn8yvpN1vTinyzpwajZA"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1V5RgkaTCm5hok3jjSENX0AWpc7KUC9NF/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1V5RgkaTCm5hok3jjSENX0AWpc7KUC9NF"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1cNFsN47LH0P62etRro_bb3GbmAGv2Dhr/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1cNFsN47LH0P62etRro_bb3GbmAGv2Dhr"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/152tTngl84ZnsPwkicwZJCh-t-hYDvv4w/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=152tTngl84ZnsPwkicwZJCh-t-hYDvv4w"/></a>
+</div>
+</div>
+</div>
 </body>
-</html>    
-
+</html>
