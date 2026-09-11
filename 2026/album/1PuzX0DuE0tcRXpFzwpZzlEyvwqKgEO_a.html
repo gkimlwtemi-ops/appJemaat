@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{background-color:$bodybg$;}
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
+
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#000;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
+<h3 class="mytitle">SAM PASTORAL KONSELING 2023</h3>
+<p class="mysubtitle">Dokumentasi SAM Pastoral Konseling (02 Oktober 2023)</p>
+<div class="gallery-container" id="gallery-container">
+
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1GxFv34obmOJkaQmAV3ifQP_aTZN8gS7G/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1GxFv34obmOJkaQmAV3ifQP_aTZN8gS7G"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10zUFjlRdAnyKYl5jRDpUKvNOfXeWXnjH/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10zUFjlRdAnyKYl5jRDpUKvNOfXeWXnjH"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10WY7eIbKz85KIlWOtPr5pTvMiaPBn35n/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10WY7eIbKz85KIlWOtPr5pTvMiaPBn35n"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1zOqko1PCm5mYQLeeCK2srfCHsabzXxgs/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1zOqko1PCm5mYQLeeCK2srfCHsabzXxgs"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1HcEsuhnvYVLis3fSS2h_VAyhIOCwATeq/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1HcEsuhnvYVLis3fSS2h_VAyhIOCwATeq"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1M--up0DOZDfPbL8msV8bG4SzOWOLdHrb/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1M--up0DOZDfPbL8msV8bG4SzOWOLdHrb"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1zK4aDfdH_ufyCBlb54cGDq_kvT1E_lDM/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1zK4aDfdH_ufyCBlb54cGDq_kvT1E_lDM"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1-e7K5JU1af5Af3g8uVkQWD1ROnBUPwj9/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1-e7K5JU1af5Af3g8uVkQWD1ROnBUPwj9"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>

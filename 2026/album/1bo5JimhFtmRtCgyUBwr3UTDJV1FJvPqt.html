@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{background-color:$bodybg$;}
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
+
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#000;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
+<h3 class="mytitle">LATIHAN TAMBORIN 2023</h3>
+<p class="mysubtitle">Dokumentasi Latihan Tamborin (05 September 2023)</p>
+<div class="gallery-container" id="gallery-container">
+
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10g9CZoHF9Att4dAWoDqKxMt-bqeJWFTd/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10g9CZoHF9Att4dAWoDqKxMt-bqeJWFTd"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1B3kU_MG4GYesAtFY3G_6Mu1snX9Vx3If/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1B3kU_MG4GYesAtFY3G_6Mu1snX9Vx3If"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1t2S_2Bprufmqw0N5XCENxI30CnVhSYYM/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1t2S_2Bprufmqw0N5XCENxI30CnVhSYYM"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/13996oKBj223daKR-aonT1LCNMOVTN3Mi/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=13996oKBj223daKR-aonT1LCNMOVTN3Mi"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1l2aYTJ8Y9oCbSLXA24evT_EVPhyjIE-y/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1l2aYTJ8Y9oCbSLXA24evT_EVPhyjIE-y"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1V12tk_kUxAEGS2quDyXL-CKEBtXxWNzq/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1V12tk_kUxAEGS2quDyXL-CKEBtXxWNzq"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1WTo1egf5y5vEmggULXgjw48liiDKx9u0/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1WTo1egf5y5vEmggULXgjw48liiDKx9u0"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1lHbV3GXj-9L7lfTdTmCWzB1EukhqaSLU/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1lHbV3GXj-9L7lfTdTmCWzB1EukhqaSLU"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1DI5EtLWZB8BEvAz8N0HZAEFRPLLA1fve/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1DI5EtLWZB8BEvAz8N0HZAEFRPLLA1fve"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1AfXhCX5FzeZAL19dvhTbfXcT8K__LC7y/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1AfXhCX5FzeZAL19dvhTbfXcT8K__LC7y"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1C1j481ZUAPsshL0puMzy5UUj6V8XCXe1/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1C1j481ZUAPsshL0puMzy5UUj6V8XCXe1"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Kpow4QERfQLm07_iyt7EwYhqswVbVOCz/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Kpow4QERfQLm07_iyt7EwYhqswVbVOCz"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Wu40UIkOiqcsBeMK70cGkfEgH-o0d0nT/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Wu40UIkOiqcsBeMK70cGkfEgH-o0d0nT"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1xlspDIKCwgd-claHN6yrJmquGLjp3u9q/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1xlspDIKCwgd-claHN6yrJmquGLjp3u9q"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>
