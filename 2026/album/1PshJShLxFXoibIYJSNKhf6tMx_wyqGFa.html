@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{background-color:$bodybg$;}
+    .wrap-content{
+margin:0 auto;
+padding:5px;
+    max-width:1200px;
+    }
+
+
+    
+.mytitle{
+    background-color:#737509;
+    background-color:$primary$;
+    color:#fff;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:0;
+    padding:10px;
+    text-align:center;
+    border-bottom: 2px solid $aksen$;
+}
+.mysubtitle{
+    background-color:#737509;
+    background-color:$secondary$;
+    color:#000;
+    border-radius: 0 0 12px 12px;
+    margin-top:0;
+    padding:10px;
+    text-align:left;
+}
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.gallery-container {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery-container {
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+.gallery-item {
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px #0003;
+	transition: transform .3s ease,box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px #0000004d;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .3s ease;
+}
+
+.gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap-content">
+<h3 class="mytitle">Kegiatan Jalan Salib</h3>
+<p class="mysubtitle">Dokumentasi Kegiatan Jalan Salib tanggal 5 April 2023</p>
+<div class="gallery-container" id="gallery-container">
+
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1XRLQLQSI_TvHEo0dVUWrOGS4Hk6iupoq/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1XRLQLQSI_TvHEo0dVUWrOGS4Hk6iupoq"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1gncUkMFbPbEr_9n9S5jzlmmJ2E33WHmR/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1gncUkMFbPbEr_9n9S5jzlmmJ2E33WHmR"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1LwM-RIPOG0LjpcKNCIZ-IPnxurMh1Kt7/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1LwM-RIPOG0LjpcKNCIZ-IPnxurMh1Kt7"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/14Z1aivnWctmqb-vst7Kfduc_uqFRadVf/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=14Z1aivnWctmqb-vst7Kfduc_uqFRadVf"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/13Q0AtShcVbMGx8MlGYF7P6px-WHEPavp/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=13Q0AtShcVbMGx8MlGYF7P6px-WHEPavp"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/12FPauOriZJHVjuqzBLpU2KXqGOzy22Ah/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=12FPauOriZJHVjuqzBLpU2KXqGOzy22Ah"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1DeUTxNGaVYYpYXpimM0pvML_eGuFuND7/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1DeUTxNGaVYYpYXpimM0pvML_eGuFuND7"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1zXAEN6uj8yG5umzdxbDA5HnHQEBAlivN/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1zXAEN6uj8yG5umzdxbDA5HnHQEBAlivN"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1yoUkNahkZSIJ2rdgwgLx_q6IXS1H0gJh/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1yoUkNahkZSIJ2rdgwgLx_q6IXS1H0gJh"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1K4MKeOaQAj2TQ1SmEsL0UR-v0tmTQM-B/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1K4MKeOaQAj2TQ1SmEsL0UR-v0tmTQM-B"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1BdbbrltMo5kBFvhoIURZAL-o49YcTGnx/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1BdbbrltMo5kBFvhoIURZAL-o49YcTGnx"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Lz1L0ocNppYC1EzifFw_Vq95HuJUtbtd/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Lz1L0ocNppYC1EzifFw_Vq95HuJUtbtd"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1m1aO2KRB9j8Rr0VMk_h7CkjYNAGmU-XN/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1m1aO2KRB9j8Rr0VMk_h7CkjYNAGmU-XN"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/18NXWqy8LFabTHc2QKBNlwcr-FArgNgKr/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=18NXWqy8LFabTHc2QKBNlwcr-FArgNgKr"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1XztD71zgLJSZe3Fl_ksEcMW8JIWmSgrC/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1XztD71zgLJSZe3Fl_ksEcMW8JIWmSgrC"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1R1Ze0D9jIkepY7pFHhuBe-HJ5xBDLPtW/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1R1Ze0D9jIkepY7pFHhuBe-HJ5xBDLPtW"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1QjYtbatgwdNRW_mlyxpa4rWx4JxTHvJ8/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1QjYtbatgwdNRW_mlyxpa4rWx4JxTHvJ8"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/19zUcEx65bBkT--a0qn3UYC2Cp4YuabGc/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=19zUcEx65bBkT--a0qn3UYC2Cp4YuabGc"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Pbq6Z2kzztYh6NB15R-HxCg8F0TSETR4/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Pbq6Z2kzztYh6NB15R-HxCg8F0TSETR4"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1mJ_S3uY_LZSqQofFI1YyYGAMEi5R2Zy0/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1mJ_S3uY_LZSqQofFI1YyYGAMEi5R2Zy0"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1q5oXRpttTf-kBIiaGGNndUIPrhjenmGt/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1q5oXRpttTf-kBIiaGGNndUIPrhjenmGt"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/176bN4anCp9scguW9slizGynefCdYwkwc/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=176bN4anCp9scguW9slizGynefCdYwkwc"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1B1Hf_6kZagn1Pglm49MrfuABU6qjoT9H/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1B1Hf_6kZagn1Pglm49MrfuABU6qjoT9H"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1THFNZrB_7lhLx5nzvzxTecXQiwjK433b/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1THFNZrB_7lhLx5nzvzxTecXQiwjK433b"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1V-JlZ2MAP_oBR89oQ4L6mveEL9fMTUKc/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1V-JlZ2MAP_oBR89oQ4L6mveEL9fMTUKc"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1hPRHF75HqVhTTUXLNhSJ3JK6YerVHB4E/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1hPRHF75HqVhTTUXLNhSJ3JK6YerVHB4E"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1aft4-vQsXt70KK3qG_VgOR_4swg2riZ2/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1aft4-vQsXt70KK3qG_VgOR_4swg2riZ2"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1sgXvBPAjTOvQc09JZzWwndOo9XOJxaMJ/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1sgXvBPAjTOvQc09JZzWwndOo9XOJxaMJ"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1eAnteJ2I2oSympl1Lv5BZEzuJc6f-YdO/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1eAnteJ2I2oSympl1Lv5BZEzuJc6f-YdO"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/16AmEJAd8p0wWOfI-NEKBIK-6gRGoEiGN/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=16AmEJAd8p0wWOfI-NEKBIK-6gRGoEiGN"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/18exKvmm0XbYGPVDLARU8Ela3_SFO7BL0/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=18exKvmm0XbYGPVDLARU8Ela3_SFO7BL0"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1yl178g56or2bqKP33OU_O8o-4rX7QZW6/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1yl178g56or2bqKP33OU_O8o-4rX7QZW6"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/111whud92mfDKJbLl8agiBb3mbBAJTHs_/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=111whud92mfDKJbLl8agiBb3mbBAJTHs_"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1lCOouUUEufPgNh9sM3S0lR_4DqLOkURG/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1lCOouUUEufPgNh9sM3S0lR_4DqLOkURG"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Enddknf09L_m4eYzDlZbRIlJ3vXUwqqq/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Enddknf09L_m4eYzDlZbRIlJ3vXUwqqq"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1ViDb0ayrlZ7_7DTZVKOMF11Sfq6ALGmm/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1ViDb0ayrlZ7_7DTZVKOMF11Sfq6ALGmm"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1t7oNgPNLY73p8VQKsSNzxjzbswn7Y6ud/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1t7oNgPNLY73p8VQKsSNzxjzbswn7Y6ud"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1BWLbmf55n1ohK4BiKRwsTA_8QFi5tO30/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1BWLbmf55n1ohK4BiKRwsTA_8QFi5tO30"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1U8vj5iq_zQTNa4VNTEyRKBEImr6SkJMP/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1U8vj5iq_zQTNa4VNTEyRKBEImr6SkJMP"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/18x35OG1M6Am2YqNg-UO_5t8UVKjdolx0/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=18x35OG1M6Am2YqNg-UO_5t8UVKjdolx0"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/17UT5p0gg3TgokZQ0QE7o2r0iGDM3_sdw/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=17UT5p0gg3TgokZQ0QE7o2r0iGDM3_sdw"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1hq1gTT7--QFIHY7TBeja9M8MUkxpRT_3/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1hq1gTT7--QFIHY7TBeja9M8MUkxpRT_3"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1tZHRNjhbjhRbkWHQBlDvs7RdgryjRwff/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1tZHRNjhbjhRbkWHQBlDvs7RdgryjRwff"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1oplLozlu1P4n6cxkIldeKDzr1LTZPhvy/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1oplLozlu1P4n6cxkIldeKDzr1LTZPhvy"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1oDSYzPKbPlkx5AgWblMCT9Yt8ot5hnqH/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1oDSYzPKbPlkx5AgWblMCT9Yt8ot5hnqH"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1pQ98ePpyddNRP_p7wvtcck8nrLcS1cfy/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1pQ98ePpyddNRP_p7wvtcck8nrLcS1cfy"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1cJklfRLlKwbZW4LQByU3lzp-5tIiXhJC/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1cJklfRLlKwbZW4LQByU3lzp-5tIiXhJC"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1B6sNJQUCe6CyPYYNsyDHnAA4A_qy2SbD/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1B6sNJQUCe6CyPYYNsyDHnAA4A_qy2SbD"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10wqro5cYFPwFo53BBeTsUDuo6bhgnLv9/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10wqro5cYFPwFo53BBeTsUDuo6bhgnLv9"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/10ReW5dbRxEbgl321wIhNeuU9Z7-0k0sO/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=10ReW5dbRxEbgl321wIhNeuU9Z7-0k0sO"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1pBGtF5MRmmWZmrRoJ7zAwXT__z06euYr/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1pBGtF5MRmmWZmrRoJ7zAwXT__z06euYr"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1phom8GZZaV_qlJYaD97Tyb4Rc9aVgl2C/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1phom8GZZaV_qlJYaD97Tyb4Rc9aVgl2C"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1FMI-dGCCeHixOKmRgE7JyAwIVn3m3O-J/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1FMI-dGCCeHixOKmRgE7JyAwIVn3m3O-J"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1yd8Y9ARyuBDkcIb8jwJEc75iZYp5rHuy/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1yd8Y9ARyuBDkcIb8jwJEc75iZYp5rHuy"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1WeKoezR_sARUknhfeqjaHqLSP_IkHHnS/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1WeKoezR_sARUknhfeqjaHqLSP_IkHHnS"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1b9Didtp_cml7REPOEtVTzseWHTgsXe2l/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1b9Didtp_cml7REPOEtVTzseWHTgsXe2l"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1an1RVIYWxKcGc105Xzds4gQYUXsEQAVu/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1an1RVIYWxKcGc105Xzds4gQYUXsEQAVu"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Xkbyj52rCdYLnKNxmBRaZsYVljUd6zcK/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Xkbyj52rCdYLnKNxmBRaZsYVljUd6zcK"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1FHyNn9Y4MmNImiPc5NiytVLTh-oNrbB-/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1FHyNn9Y4MmNImiPc5NiytVLTh-oNrbB-"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/17teIIlrX5JFshjiBIYOLAmK-7lHOfjPz/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=17teIIlrX5JFshjiBIYOLAmK-7lHOfjPz"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1a_L5ui8z3G6z2aNFrR0jNmidlsCYfdbb/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1a_L5ui8z3G6z2aNFrR0jNmidlsCYfdbb"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1BScp3xaMg6CCQrNBzB4K5WCqJi1x3Qdl/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1BScp3xaMg6CCQrNBzB4K5WCqJi1x3Qdl"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Y_xh3mPZ0uefPkFgobzGR_1LK52psedR/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Y_xh3mPZ0uefPkFgobzGR_1LK52psedR"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1zPJtAMhsD0tJFYltUrBrEph331irnRec/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1zPJtAMhsD0tJFYltUrBrEph331irnRec"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1dgC5FBmP8a5dAHubUMN3kzJMQBHgOMaM/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1dgC5FBmP8a5dAHubUMN3kzJMQBHgOMaM"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1aFcxkFLVl3cUjfp_KrTXudSC7pokwY2n/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1aFcxkFLVl3cUjfp_KrTXudSC7pokwY2n"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1jqhKgMVCxny7Wt5nSIYtjqQG9h_0zidZ/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1jqhKgMVCxny7Wt5nSIYtjqQG9h_0zidZ"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1uf6HbPdmUuFl22kJxtUczFGRKPVCPysN/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1uf6HbPdmUuFl22kJxtUczFGRKPVCPysN"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1SIyEYEnVdoK67SffGNaGB6emcvmcx-zO/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1SIyEYEnVdoK67SffGNaGB6emcvmcx-zO"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1Tq015GiV0XQIbpjRsig8YZJjBDokNTm7/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1Tq015GiV0XQIbpjRsig8YZJjBDokNTm7"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1AOMPIGlqIWWh09Gy5X5CSIC5rV8vBays/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1AOMPIGlqIWWh09Gy5X5CSIC5rV8vBays"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1miJE8diPhs9P7odvg_PG9h6hJySZf3iU/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1miJE8diPhs9P7odvg_PG9h6hJySZf3iU"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1zTowjpp9aPp4nKrCbhVQCQySOfySXOwI/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1zTowjpp9aPp4nKrCbhVQCQySOfySXOwI"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1iGI6b6zVYjp_vcSBezL0HrGw3-FfrTCW/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1iGI6b6zVYjp_vcSBezL0HrGw3-FfrTCW"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1b4ioa581icdpPscFLnrWJ0qlohaoibeX/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1b4ioa581icdpPscFLnrWJ0qlohaoibeX"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/158ihRNe2u_LunBR5twmPlq-llIgkmFFo/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=158ihRNe2u_LunBR5twmPlq-llIgkmFFo"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1lM-rJyS_IIiBpB53QcOd4hkHIEtOI3l3/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1lM-rJyS_IIiBpB53QcOd4hkHIEtOI3l3"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1pylDla5-qpMqFbstCn_zyKPcdNeGGATY/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1pylDla5-qpMqFbstCn_zyKPcdNeGGATY"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1NfYrHvyr2Pf96NhkE-M2ap9TKNrqrv9X/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1NfYrHvyr2Pf96NhkE-M2ap9TKNrqrv9X"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1e701R9rj-hmh0_RviKOey9iGJXM3H4BW/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1e701R9rj-hmh0_RviKOey9iGJXM3H4BW"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1WpBCyPoOhRnjH8P7yNdhBEiNj0YCvwA3/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1WpBCyPoOhRnjH8P7yNdhBEiNj0YCvwA3"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1GbVPMaxOdUhMUC04Rgk92Jj0NZssubMc/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1GbVPMaxOdUhMUC04Rgk92Jj0NZssubMc"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1BF3BYD9pzK_0qIDE2SsuXzxN1-2d4YJq/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1BF3BYD9pzK_0qIDE2SsuXzxN1-2d4YJq"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1jkA_08lJSMD_zvL22dpycsl1dkVvdGXE/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1jkA_08lJSMD_zvL22dpycsl1dkVvdGXE"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/130U7pUaHZm-VUHbc-numMAU5R1uJ7aSG/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=130U7pUaHZm-VUHbc-numMAU5R1uJ7aSG"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1rLIrxzrooYKgJANwcGxYwJcdXxN6g-KN/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1rLIrxzrooYKgJANwcGxYwJcdXxN6g-KN"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1mQp8xkMrLPr5x5aQvcRQzdEINwNc0386/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1mQp8xkMrLPr5x5aQvcRQzdEINwNc0386"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/1LIRZlfBv_qrsLEFSU-qFxUzPQqVTcA4Z/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=1LIRZlfBv_qrsLEFSU-qFxUzPQqVTcA4Z"/></a>
+</div>
+<div class="gallery-item">
+<a href="https://drive.google.com/file/d/16puRpQjMuvti-1GnXgqy8vJ1dT9iVFU7/view?usp=drive_link"><img alt=""src="https://drive.google.com/thumbnail?id=16puRpQjMuvti-1GnXgqy8vJ1dT9iVFU7"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>
